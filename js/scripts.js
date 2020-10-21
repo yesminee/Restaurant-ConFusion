@@ -1,9 +1,9 @@
 //written in jquary syntaxe
 $(document).ready(function () {
     $('[data-toggle=tooltip"]').tooltip();
-}); //whenever there is an att of this kind for html tag turn onthe tooltip
+});
 
-//controler le comportement des bouttons
+//controlr buttons' behaviour
 $(document).ready(function () {
     $('#mycarousel').carousel({ interval: 2000 });  //sliding speed
 
