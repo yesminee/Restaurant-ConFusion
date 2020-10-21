@@ -3,7 +3,7 @@ const sass = require('node-sass');
 
 //task for SCSS to CSS conversion
 module.exports = function (grunt) {
-    // Time how long tasks take. Can help when optimizing build times
+    // how long tasks can take. Can help when optimizing build timing
     require('time-grunt')(grunt);
 
     // Automatically load required Grunt tasks
@@ -151,9 +151,8 @@ module.exports = function (grunt) {
         },
 
         // Usemin
-        // Replaces all assets with their revved version in html and css files.
-        // options.assetDirs contains the directories for finding the assets
-        // according to their relative paths
+        // Replaces all assets with their version in html and css files.
+        // options.assetDirs contains the directories to find the assets according to their relative paths
         usemin: {
             html: ['dist/contactus.html', 'dist/aboutus.html', 'dist/index.html'],
             options: {
